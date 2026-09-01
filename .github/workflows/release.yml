@@ -6,5 +6,5 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: |
-          yarn install --no-immutable
-          bun install --frozen-lockfile=false
+          yarn install --immutable
+          bun install --frozen-lockfile
